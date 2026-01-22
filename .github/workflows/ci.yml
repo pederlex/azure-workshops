@@ -34,3 +34,10 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+      - name: Run a simple script
+        run: |
+          echo "Running a simple script"
+          echo "Current date and time: $(date)"
+          echo "List of files in the repository:"
+          ls -la
